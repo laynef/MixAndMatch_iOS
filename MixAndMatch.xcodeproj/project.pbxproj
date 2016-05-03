@@ -15,6 +15,7 @@
 		D95611E51CD8455600DA28EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D95611E31CD8455600DA28EC /* LaunchScreen.storyboard */; };
 		D95611F01CD8455700DA28EC /* MixAndMatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95611EF1CD8455700DA28EC /* MixAndMatchTests.swift */; };
 		D95611FB1CD8455700DA28EC /* MixAndMatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95611FA1CD8455700DA28EC /* MixAndMatchUITests.swift */; };
+		D9AB97EC1CD8531500D5F7B6 /* MatchImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AB97EB1CD8531500D5F7B6 /* MatchImages.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D95611F61CD8455700DA28EC /* MixAndMatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MixAndMatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D95611FA1CD8455700DA28EC /* MixAndMatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixAndMatchUITests.swift; sourceTree = "<group>"; };
 		D95611FC1CD8455700DA28EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9AB97EB1CD8531500D5F7B6 /* MatchImages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchImages.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				D95611D71CD8455600DA28EC /* AppDelegate.swift */,
 				D95611D91CD8455600DA28EC /* ViewController.swift */,
+				D9AB97EB1CD8531500D5F7B6 /* MatchImages.swift */,
 				D95611DB1CD8455600DA28EC /* Main.storyboard */,
 				D95611E11CD8455600DA28EC /* Assets.xcassets */,
 				D95611E31CD8455600DA28EC /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 				D95611DA1CD8455600DA28EC /* ViewController.swift in Sources */,
 				D95611E01CD8455600DA28EC /* MixAndMatch.xcdatamodeld in Sources */,
 				D95611D81CD8455600DA28EC /* AppDelegate.swift in Sources */,
+				D9AB97EC1CD8531500D5F7B6 /* MatchImages.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,6 +490,7 @@
 				D95612011CD8455700DA28EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D95612021CD8455700DA28EC /* Build configuration list for PBXNativeTarget "MixAndMatchTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +499,7 @@
 				D95612041CD8455700DA28EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D95612051CD8455700DA28EC /* Build configuration list for PBXNativeTarget "MixAndMatchUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +508,7 @@
 				D95612071CD8455700DA28EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
